@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87E191301DAF680500D7F6E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E1912F1DAF680500D7F6E7 /* main.m */; };
+		87E191331DAF680500D7F6E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E191321DAF680500D7F6E7 /* AppDelegate.m */; };
+		87E191361DAF680500D7F6E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E191351DAF680500D7F6E7 /* ViewController.m */; };
+		87E191391DAF680500D7F6E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E191371DAF680500D7F6E7 /* Main.storyboard */; };
+		87E1913C1DAF680500D7F6E7 /* WuCNetwork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87E1913A1DAF680500D7F6E7 /* WuCNetwork.xcdatamodeld */; };
+		87E1913E1DAF680500D7F6E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87E1913D1DAF680500D7F6E7 /* Assets.xcassets */; };
+		87E191411DAF680500D7F6E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E1913F1DAF680500D7F6E7 /* LaunchScreen.storyboard */; };
+		87E1914C1DAF680600D7F6E7 /* WuCNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E1914B1DAF680600D7F6E7 /* WuCNetworkTests.m */; };
+		87E191571DAF680600D7F6E7 /* WuCNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E191561DAF680600D7F6E7 /* WuCNetworkUITests.m */; };
+		87E1916A1DAF6A1700D7F6E7 /* WuCNetworkFormData.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E191671DAF6A1700D7F6E7 /* WuCNetworkFormData.m */; };
+		87E1916B1DAF6A1700D7F6E7 /* WuCNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E191691DAF6A1700D7F6E7 /* WuCNetworkManager.m */; };
+		8D88DA0FCFE17F1C798C760D /* libPods-WuCNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A595218C8EFDDD9967355F /* libPods-WuCNetwork.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87E191481DAF680500D7F6E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87E191231DAF680500D7F6E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87E1912A1DAF680500D7F6E7;
+			remoteInfo = WuCNetwork;
+		};
+		87E191531DAF680600D7F6E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87E191231DAF680500D7F6E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87E1912A1DAF680500D7F6E7;
+			remoteInfo = WuCNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87E1912B1DAF680500D7F6E7 /* WuCNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WuCNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E1912F1DAF680500D7F6E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87E191311DAF680500D7F6E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87E191321DAF680500D7F6E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87E191341DAF680500D7F6E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87E191351DAF680500D7F6E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87E191381DAF680500D7F6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87E1913B1DAF680500D7F6E7 /* WuCNetwork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WuCNetwork.xcdatamodel; sourceTree = "<group>"; };
+		87E1913D1DAF680500D7F6E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87E191401DAF680500D7F6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87E191421DAF680500D7F6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E191471DAF680500D7F6E7 /* WuCNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WuCNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E1914B1DAF680600D7F6E7 /* WuCNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WuCNetworkTests.m; sourceTree = "<group>"; };
+		87E1914D1DAF680600D7F6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E191521DAF680600D7F6E7 /* WuCNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WuCNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E191561DAF680600D7F6E7 /* WuCNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WuCNetworkUITests.m; sourceTree = "<group>"; };
+		87E191581DAF680600D7F6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87E191661DAF6A1700D7F6E7 /* WuCNetworkFormData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WuCNetworkFormData.h; sourceTree = "<group>"; };
+		87E191671DAF6A1700D7F6E7 /* WuCNetworkFormData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WuCNetworkFormData.m; sourceTree = "<group>"; };
+		87E191681DAF6A1700D7F6E7 /* WuCNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WuCNetworkManager.h; sourceTree = "<group>"; };
+		87E191691DAF6A1700D7F6E7 /* WuCNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WuCNetworkManager.m; sourceTree = "<group>"; };
+		903ADD9B794976FFBF19E2E4 /* Pods-WuCNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuCNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuCNetwork/Pods-WuCNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		C394E608DC751CD1D6791532 /* Pods-WuCNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuCNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-WuCNetwork/Pods-WuCNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		C5A595218C8EFDDD9967355F /* libPods-WuCNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WuCNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87E191281DAF680500D7F6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D88DA0FCFE17F1C798C760D /* libPods-WuCNetwork.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E191441DAF680500D7F6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E1914F1DAF680600D7F6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5109CD1D13F0DDE65B25E81A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				903ADD9B794976FFBF19E2E4 /* Pods-WuCNetwork.debug.xcconfig */,
+				C394E608DC751CD1D6791532 /* Pods-WuCNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7752D6C5B21A1C63DEF709D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5A595218C8EFDDD9967355F /* libPods-WuCNetwork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87E191221DAF680500D7F6E7 = {
+			isa = PBXGroup;
+			children = (
+				87E1912D1DAF680500D7F6E7 /* WuCNetwork */,
+				87E1914A1DAF680600D7F6E7 /* WuCNetworkTests */,
+				87E191551DAF680600D7F6E7 /* WuCNetworkUITests */,
+				87E1912C1DAF680500D7F6E7 /* Products */,
+				5109CD1D13F0DDE65B25E81A /* Pods */,
+				7752D6C5B21A1C63DEF709D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87E1912C1DAF680500D7F6E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87E1912B1DAF680500D7F6E7 /* WuCNetwork.app */,
+				87E191471DAF680500D7F6E7 /* WuCNetworkTests.xctest */,
+				87E191521DAF680600D7F6E7 /* WuCNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E1912D1DAF680500D7F6E7 /* WuCNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				87E191651DAF6A1700D7F6E7 /* WuCNetworkManager */,
+				87E191311DAF680500D7F6E7 /* AppDelegate.h */,
+				87E191321DAF680500D7F6E7 /* AppDelegate.m */,
+				87E191341DAF680500D7F6E7 /* ViewController.h */,
+				87E191351DAF680500D7F6E7 /* ViewController.m */,
+				87E191371DAF680500D7F6E7 /* Main.storyboard */,
+				87E1913D1DAF680500D7F6E7 /* Assets.xcassets */,
+				87E1913F1DAF680500D7F6E7 /* LaunchScreen.storyboard */,
+				87E191421DAF680500D7F6E7 /* Info.plist */,
+				87E1913A1DAF680500D7F6E7 /* WuCNetwork.xcdatamodeld */,
+				87E1912E1DAF680500D7F6E7 /* Supporting Files */,
+			);
+			path = WuCNetwork;
+			sourceTree = "<group>";
+		};
+		87E1912E1DAF680500D7F6E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E1912F1DAF680500D7F6E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87E1914A1DAF680600D7F6E7 /* WuCNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				87E1914B1DAF680600D7F6E7 /* WuCNetworkTests.m */,
+				87E1914D1DAF680600D7F6E7 /* Info.plist */,
+			);
+			path = WuCNetworkTests;
+			sourceTree = "<group>";
+		};
+		87E191551DAF680600D7F6E7 /* WuCNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87E191561DAF680600D7F6E7 /* WuCNetworkUITests.m */,
+				87E191581DAF680600D7F6E7 /* Info.plist */,
+			);
+			path = WuCNetworkUITests;
+			sourceTree = "<group>";
+		};
+		87E191651DAF6A1700D7F6E7 /* WuCNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				87E191661DAF6A1700D7F6E7 /* WuCNetworkFormData.h */,
+				87E191671DAF6A1700D7F6E7 /* WuCNetworkFormData.m */,
+				87E191681DAF6A1700D7F6E7 /* WuCNetworkManager.h */,
+				87E191691DAF6A1700D7F6E7 /* WuCNetworkManager.m */,
+			);
+			path = WuCNetworkManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87E1912A1DAF680500D7F6E7 /* WuCNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E1915B1DAF680600D7F6E7 /* Build configuration list for PBXNativeTarget "WuCNetwork" */;
+			buildPhases = (
+				770C26FF3697D5A9D3A4BC8F /* Check Pods Manifest.lock */,
+				87E191271DAF680500D7F6E7 /* Sources */,
+				87E191281DAF680500D7F6E7 /* Frameworks */,
+				87E191291DAF680500D7F6E7 /* Resources */,
+				2C81CC9E1757EC031247A943 /* Embed Pods Frameworks */,
+				09FA54298D0328E34F040BCE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WuCNetwork;
+			productName = WuCNetwork;
+			productReference = 87E1912B1DAF680500D7F6E7 /* WuCNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87E191461DAF680500D7F6E7 /* WuCNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E1915E1DAF680600D7F6E7 /* Build configuration list for PBXNativeTarget "WuCNetworkTests" */;
+			buildPhases = (
+				87E191431DAF680500D7F6E7 /* Sources */,
+				87E191441DAF680500D7F6E7 /* Frameworks */,
+				87E191451DAF680500D7F6E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87E191491DAF680500D7F6E7 /* PBXTargetDependency */,
+			);
+			name = WuCNetworkTests;
+			productName = WuCNetworkTests;
+			productReference = 87E191471DAF680500D7F6E7 /* WuCNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87E191511DAF680600D7F6E7 /* WuCNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E191611DAF680600D7F6E7 /* Build configuration list for PBXNativeTarget "WuCNetworkUITests" */;
+			buildPhases = (
+				87E1914E1DAF680600D7F6E7 /* Sources */,
+				87E1914F1DAF680600D7F6E7 /* Frameworks */,
+				87E191501DAF680600D7F6E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87E191541DAF680600D7F6E7 /* PBXTargetDependency */,
+			);
+			name = WuCNetworkUITests;
+			productName = WuCNetworkUITests;
+			productReference = 87E191521DAF680600D7F6E7 /* WuCNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87E191231DAF680500D7F6E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = scrum_snail;
+				TargetAttributes = {
+					87E1912A1DAF680500D7F6E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VGXYJ6BWCJ;
+						ProvisioningStyle = Automatic;
+					};
+					87E191461DAF680500D7F6E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VGXYJ6BWCJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87E1912A1DAF680500D7F6E7;
+					};
+					87E191511DAF680600D7F6E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VGXYJ6BWCJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87E1912A1DAF680500D7F6E7;
+					};
+				};
+			};
+			buildConfigurationList = 87E191261DAF680500D7F6E7 /* Build configuration list for PBXProject "WuCNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87E191221DAF680500D7F6E7;
+			productRefGroup = 87E1912C1DAF680500D7F6E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87E1912A1DAF680500D7F6E7 /* WuCNetwork */,
+				87E191461DAF680500D7F6E7 /* WuCNetworkTests */,
+				87E191511DAF680600D7F6E7 /* WuCNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87E191291DAF680500D7F6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E191411DAF680500D7F6E7 /* LaunchScreen.storyboard in Resources */,
+				87E1913E1DAF680500D7F6E7 /* Assets.xcassets in Resources */,
+				87E191391DAF680500D7F6E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E191451DAF680500D7F6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E191501DAF680600D7F6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09FA54298D0328E34F040BCE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WuCNetwork/Pods-WuCNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C81CC9E1757EC031247A943 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WuCNetwork/Pods-WuCNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		770C26FF3697D5A9D3A4BC8F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87E191271DAF680500D7F6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E1913C1DAF680500D7F6E7 /* WuCNetwork.xcdatamodeld in Sources */,
+				87E191361DAF680500D7F6E7 /* ViewController.m in Sources */,
+				87E191331DAF680500D7F6E7 /* AppDelegate.m in Sources */,
+				87E191301DAF680500D7F6E7 /* main.m in Sources */,
+				87E1916B1DAF6A1700D7F6E7 /* WuCNetworkManager.m in Sources */,
+				87E1916A1DAF6A1700D7F6E7 /* WuCNetworkFormData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E191431DAF680500D7F6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E1914C1DAF680600D7F6E7 /* WuCNetworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E1914E1DAF680600D7F6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E191571DAF680600D7F6E7 /* WuCNetworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87E191491DAF680500D7F6E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87E1912A1DAF680500D7F6E7 /* WuCNetwork */;
+			targetProxy = 87E191481DAF680500D7F6E7 /* PBXContainerItemProxy */;
+		};
+		87E191541DAF680600D7F6E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87E1912A1DAF680500D7F6E7 /* WuCNetwork */;
+			targetProxy = 87E191531DAF680600D7F6E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87E191371DAF680500D7F6E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E191381DAF680500D7F6E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87E1913F1DAF680500D7F6E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87E191401DAF680500D7F6E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87E191591DAF680600D7F6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87E1915A1DAF680600D7F6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87E1915C1DAF680600D7F6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903ADD9B794976FFBF19E2E4 /* Pods-WuCNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VGXYJ6BWCJ;
+				INFOPLIST_FILE = WuCNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.WuCNetwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87E1915D1DAF680600D7F6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C394E608DC751CD1D6791532 /* Pods-WuCNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VGXYJ6BWCJ;
+				INFOPLIST_FILE = WuCNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.WuCNetwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87E1915F1DAF680600D7F6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VGXYJ6BWCJ;
+				INFOPLIST_FILE = WuCNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.WuCNetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WuCNetwork.app/WuCNetwork";
+			};
+			name = Debug;
+		};
+		87E191601DAF680600D7F6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VGXYJ6BWCJ;
+				INFOPLIST_FILE = WuCNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.WuCNetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WuCNetwork.app/WuCNetwork";
+			};
+			name = Release;
+		};
+		87E191621DAF680600D7F6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VGXYJ6BWCJ;
+				INFOPLIST_FILE = WuCNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.WuCNetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WuCNetwork;
+			};
+			name = Debug;
+		};
+		87E191631DAF680600D7F6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VGXYJ6BWCJ;
+				INFOPLIST_FILE = WuCNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.WuCNetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WuCNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87E191261DAF680500D7F6E7 /* Build configuration list for PBXProject "WuCNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E191591DAF680600D7F6E7 /* Debug */,
+				87E1915A1DAF680600D7F6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E1915B1DAF680600D7F6E7 /* Build configuration list for PBXNativeTarget "WuCNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E1915C1DAF680600D7F6E7 /* Debug */,
+				87E1915D1DAF680600D7F6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E1915E1DAF680600D7F6E7 /* Build configuration list for PBXNativeTarget "WuCNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E1915F1DAF680600D7F6E7 /* Debug */,
+				87E191601DAF680600D7F6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E191611DAF680600D7F6E7 /* Build configuration list for PBXNativeTarget "WuCNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E191621DAF680600D7F6E7 /* Debug */,
+				87E191631DAF680600D7F6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87E1913A1DAF680500D7F6E7 /* WuCNetwork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87E1913B1DAF680500D7F6E7 /* WuCNetwork.xcdatamodel */,
+			);
+			currentVersion = 87E1913B1DAF680500D7F6E7 /* WuCNetwork.xcdatamodel */;
+			path = WuCNetwork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 87E191231DAF680500D7F6E7 /* Project object */;
+}

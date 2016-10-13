@@ -1,0 +1,4 @@
+platform:ios,'8.0'
+target 'WuCNetwork' do 
+pod 'AFNetworking'
+end
